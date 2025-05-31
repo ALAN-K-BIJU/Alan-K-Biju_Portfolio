@@ -1,0 +1,473 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Skills",
+        "title_short_nav": "Skills",
+        "title_long_prefix": "Explore",
+        "title_long": "My {{Skill Set}}"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 2,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": {"title": "Backend Stack"}
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-brands fa-java",
+          "faIconColors": {"fill": "#007396"},
+          "date": {"year": 2022, "month": 3},
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "Java (Spring Boot)",
+              "text": "Used in multiple backend projects with Maven for REST APIs. 3+ years experience.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-brands fa-node-js",
+          "faIconColors": {"fill": "#339933"},
+          "date": {"year": 2023, "month": 1},
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "Node.js",
+              "text": "Used Express.js to build REST APIs. 2+ years experience.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-brands fa-python",
+          "faIconColors": {"fill": "#3776AB"},
+          "date": {"year": 2022, "month": 4},
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "Python (Flask/FastAPI)",
+              "text": "Used for backend automation and ML APIs. 2+ years experience.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-brands fa-docker",
+          "faIconColors": {"fill": "#2496ED"},
+          "date": {"year": 2023, "month": 3},
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "Docker",
+              "text": "Used for containerizing backend apps. CI/CD pipelines and deployments.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 5,
+          "faIcon": "fa-solid fa-cubes",
+          "faIconColors": {"fill": "#326CE5"},
+          "date": {"year": 2024, "month": 2},
+          "percentage": 70,
+          "locales": {
+            "en": {
+              "title": "Kubernetes",
+              "text": "Hands-on with k8s deployments on AWS. Used for scaling backend services.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 6,
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": {"fill": "#336791"},
+          "date": {"year": 2023, "month": 6},
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "PostgreSQL",
+              "text": "Used in multiple backend services for relational data. Confident with joins, indexing.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 7,
+          "faIcon": "fa-solid fa-code-branch",
+          "faIconColors": {"fill": "#F05032"},
+          "date": {"year": 2022, "month": 4},
+          "percentage": 95,
+          "locales": {
+            "en": {
+              "title": "Git",
+              "text": "Used for version control and GitHub-based workflows.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 8,
+          "faIcon": "fa-brands fa-aws",
+          "faIconColors": {"fill": "#FF9900"},
+          "date": {"year": 2023, "month": 10},
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "AWS",
+              "text": "Used EC2, S3, Lambda, and IAM for deploying fullstack apps.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 9,
+          "faIcon": "fa-brands fa-rust",
+          "faIconColors": {"fill": "#DEA584"},
+          "date": {"year": 2024, "month": 8},
+          "percentage": 70,
+          "locales": {
+            "en": {
+              "title": "Rust",
+              "text": "Used for building performant backend modules and CLI tools.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 10,
+          "faIcon": "fa-solid fa-leaf",
+          "faIconColors": {"fill": "#47A248"},
+          "date": {"year": 2023, "month": 6},
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "MongoDB / Firestore",
+              "text": "Used in multiple projects. Good grasp of NoSQL patterns.",
+              "level": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": {"title": "Frontend Stack"}
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-brands fa-react",
+          "faIconColors": {"fill": "#61DAFB"},
+          "date": {"year": 2023, "month": 8},
+          "percentage": 95,
+          "locales": {
+            "en": {
+              "title": "React.js",
+              "text": "Used in multiple frontend projects.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-brands fa-html5",
+          "faIconColors": {"fill": "#E34F26"},
+          "date": {"year": 2022, "month": 4},
+          "percentage": 100,
+          "locales": {
+            "en": {
+              "title": "HTML5",
+              "text": "Core of all frontend projects.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-brands fa-js",
+          "faIconColors": {"fill": "#F7DF1E"},
+          "date": {"year": 2022, "month": 6},
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "JavaScript ES6+",
+              "text": "Used in React/Next.js builds.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-solid fa-palette",
+          "faIconColors": {"fill": "#38BDF8"},
+          "date": {"year": 2022, "month": 9},
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "Tailwind CSS",
+              "text": "Used for styling responsive React apps with utility classes.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 5,
+          "faIcon": "fa-solid fa-forward",
+          "faIconColors": {"fill": "#000000"},
+          "date": {"year": 2024, "month": 1},
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "Next.js",
+              "text": "Used in projects with server-side rendering and dynamic routing.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 6,
+          "faIcon": "fa-brands fa-android",
+          "faIconColors": {"fill": "#3DDC84"},
+          "date": {"year": 2023, "month": 2},
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "Jetpack Compose (Kotlin)",
+              "text": "Used in various projects, 2 years of experience.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 7,
+          "faIcon": "fa-brands fa-google-play",
+          "faIconColors": {"fill": "#0175C2"},
+          "date": {"year": 2024, "month": 9},
+          "percentage": 75,
+          "locales": {
+            "en": {
+              "title": "Flutter (Dart)",
+              "text": "Experimented with cross-platform UI building. 1 year experience.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 8,
+          "faIcon": "fa-solid fa-chart-line",
+          "faIconColors": {"fill": "#FF4B00"},
+          "date": {"year": 2023, "month": 5},
+          "percentage": 70,
+          "locales": {
+            "en": {
+              "title": "Streamlit",
+              "text": "Used for quick ML dashboard interfaces in prototypes.",
+              "level": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": {"title": "ML Libraries"}
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-brands fa-python",
+          "faIconColors": {"fill": "#FFD43B"},
+          "date": {"year": 2023, "month": 3},
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "PyTorch",
+              "text": "Used in image/audio models. Comfortable with custom datasets and training loops.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-brain",
+          "faIconColors": {"fill": "#8A2BE2"},
+          "date": {"year": 2023, "month": 1},
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "scikit-learn",
+              "text": "Classic ML pipelines in various project's summarization models.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-robot",
+          "faIconColors": {"fill": "#FF5733"},
+          "date": {"year": 2023, "month": 5},
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "Transformers (HuggingFace)",
+              "text": "Used for summarization, embedding and translation in Projects",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-solid fa-image",
+          "faIconColors": {"fill": "#5C5CFF"},
+          "date": {"year": 2023, "month": 6},
+          "percentage": 75,
+          "locales": {
+            "en": {
+              "title": "OpenCV",
+              "text": "Used for basic image preprocessing and face detection in AetherSync.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 5,
+          "faIcon": "fa-solid fa-cube",
+          "faIconColors": {"fill": "#FF6F00"},
+          "date": {"year": 2023, "month": 10},
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "TensorFlow",
+              "text": "Trained and deployed ML models using Keras and TFLite.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 6,
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": {"fill": "#003366"},
+          "date": {"year": 2022, "month": 9},
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "NumPy & Pandas",
+              "text": "Used for data preprocessing, wrangling and analysis across projects.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 7,
+          "faIcon": "fa-solid fa-language",
+          "faIconColors": {"fill": "#008080"},
+          "date": {"year": 2024, "month": 4},
+          "percentage": 75,
+          "locales": {
+            "en": {
+              "title": "NLP (NLTK)",
+              "text": "Used for tokenization, lemmatization, and text preprocessing in summarizers.",
+              "level": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": {"title": "Languages"}
+      },
+      "settings": {
+        "max_items_per_row": 1,
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "round_icons": true
+      },
+      "items": [
+                {
+                    "id": 2,
+                    "img": "images/flags/en-uk.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Can speak with excellent communication and writing skills.",
+                            "level": "Fluent"
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "images/flags/hi.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Hindi",
+                            "text": "Fluent in both spoken and writing hindi; confident in professional communication.",
+                            "level": "Fluent"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/flags/hi.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Malayalam",
+                            "text": "Native speaker with excellent communication and writing skills",
+                            "level": "Fluent"
+                        }
+                    }
+                }
+            ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My {{Portfolio}}"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+        "en": {
+          "category_all": "All",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilities"
+        }
+      },
+      "settings": {
+        "categorize_by": ["category_apps", "category_web", "category_utilities"],
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "categoryId": "category_web",
+          "img": "images/pictures/aethersynclogo.jpg",
+          "faIcon": "fa-solid fa-vault",
+          "faIconColors": {"bg": "#0f172a", "fill": "#ffffff"},
+          "preview": {
+            "links": [
+              {"href": "https://github.com/ALAN-K-BIJU/AetherSync", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "AetherSync",
+              "text": "A privacy-first decentralized memory vault using <b>React + Rust</b>. Features <b>end-to-end encryption</b>, local-first sync, and peer-to-peer sharing.",
+              "tags": ["Rust", "Tauri", "Encryption", "Vault"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "categoryId": "category_web",
+          "img": "images/pictures/sagesmith.png",
+          "faIcon": "fa-solid fa-brain",
+          "faIconColors": {"bg": "#6b21a8", "fill": "#ffffff"},
+          "preview": {
+            "links": [
+              {"href": "https://github.com/ALAN-K-BIJU/SageSmith", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "SageSmith",
+              "text": "An interactive <b>philosophy simulator</b> featuring AI-driven dialogue between famous philosophers. Built using <b>Next.js + OpenAI</b>.",
+              "tags": ["Next.js", "Philosophy", "AI", "Simulator"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "categoryId": "category_web",
+          "img": "images/pictures/trafficsaarthi.jpg",
+          "faIcon": "fa-solid fa-car-burst",
+          "faIconColors": {"bg": "#dc2626", "fill": "#ffffff"},
+          "preview": {
+            "links": [
+              {"href": "https://github.com/ALAN-K-BIJU/TrafficSaarthi", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "TrafficSaarthi",
+              "text": "A web dashboard for <b>real-time traffic monitoring</b> and safety alerts using <b>Flask + Firebase + ML models</b>.",
+              "tags": ["Flask", "Firebase", "ML", "Traffic"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "categoryId": "category_web",
+          "img": "images/pictures/redact.png",
+          "faIcon": "fa-solid fa-user-secret",
+          "faIconColors": {"bg": "#334155", "fill": "#f8fafc"},
+          "preview": {
+            "links": [
+              {"href": "https://github.com/ALAN-K-BIJU/REDACT", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "Redact",
+              "text": "A privacy tool to automatically <b>detect and redact sensitive info</b> from documents using <b>OpenCV + NER</b>.",
+              "tags": ["Privacy", "NER", "OpenCV", "Redaction"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "categoryId": "category_apps",
+          "img": "images/pictures/detoxdiallogo.png",
+          "faIcon": "fa-solid fa-phone-slash",
+          "faIconColors": {"bg": "#065f46", "fill": "#f0fdf4"},
+          "preview": {
+            "links": [{"href": "https://github.com/ALAN-K-BIJU/DetoxDialApp", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}]
+          },
+          "locales": {
+            "en": {
+              "title": "DetoxDialApp",
+              "text": "An Android app to <b>curb phone addiction</b> using timers, lockout mode, and motivational nudges. Built with <b>Kotlin</b>.",
+              "tags": ["Kotlin", "Wellness", "Productivity"]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "categoryId": "category_apps",
+          "img": "images/pictures/quiz.png",
+          "faIcon": "fa-solid fa-circle-question",
+          "faIconColors": {"bg": "#0284c7", "fill": "#ffffff"},
+          "preview": {
+            "links": [{"href": "https://github.com/ALAN-K-BIJU/QuizApp", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}]
+          },
+          "locales": {
+            "en": {
+              "title": "QuizApp",
+              "text": "A basic <b>quiz app</b> built in Java featuring multiple screens, score tracking and intuitive UI.",
+              "tags": ["Java", "Quiz", "Education"]
+            }
+          }
+        },
+        {
+          "id": 7,
+          "categoryId": "category_apps",
+          "img": "images/pictures/journallogo.png",
+          "faIcon": "fa-solid fa-book",
+          "faIconColors": {"bg": "#7c3aed", "fill": "#f3e8ff"},
+          "preview": {
+            "links": [{"href": "https://github.com/ALAN-K-BIJU/JournalApp", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}]
+          },
+          "locales": {
+            "en": {
+              "title": "JournalApp",
+              "text": "A personal journaling Android app with <b>Firebase Auth</b> and Firestore integration for secure entry storage.",
+              "tags": ["Java", "Firebase", "Journaling"]
+            }
+          }
+        },
+        {
+          "id": 8,
+          "categoryId": "category_utilities",
+          "img": "images/pictures/docuvault.png",
+          "faIcon": "fa-solid fa-file-shield",
+          "faIconColors": {"bg": "#0c4a6e", "fill": "#ffffff"},
+          "preview": {
+            "links": [
+              {"href": "https://github.com/ALAN-K-BIJU/DocuVault", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "DocuVault",
+              "text": "A secure document management system using <b>Flask</b>, <b>React</b>, and AWS stack including <b>S3, RDS, KMS</b>.",
+              "tags": ["AWS", "Security", "Flask", "React"]
+            }
+          }
+        },
+        {
+          "id": 9,
+          "categoryId": "category_utilities",
+          "img": "images/pictures/mediqlogo.png",
+          "faIcon": "fa-solid fa-kit-medical",
+          "faIconColors": { "bg": "#047857", "fill": "#ffffff" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/ALAN-K-BIJU/Mediq",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ]
+                  },
+          "locales": {
+            "en": {
+              "title": "MediQ",
+              "text": "A complete <b>medicine inventory and donation</b> system built with a <b>DevOps pipeline</b> (Docker, Jenkins, Ansible, Nagios) and deployed to AWS.",
+              "tags": ["DevOps", "Jenkins", "Spring Boot", "AWS", "Nagios"]
+            }
+          }
+        },
+        {
+          "id": 10,
+          "categoryId": "category_utilities",
+          "img": "images/pictures/gfglogo.png",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": { "bg": "#1e293b", "fill": "#e2e8f0" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/ALAN-K-BIJU/gfg_solutions",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "gfg_solutions",
+              "text": "My collection of <b>GeeksforGeeks DSA problems</b> and competitive programming solutions using Java and Python.",
+              "tags": ["DSA", "Java", "Python", "GFG"]
+            }
+          }
+        },
+        {
+          "id": 11,
+          "categoryId": "category_utilities",
+          "img": "images/pictures/correlationlogo.jpg",
+          "faIcon": "fa-solid fa-chart-line",
+          "faIconColors": { "bg": "#0f766e", "fill": "#ccfbf1" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/ALAN-K-BIJU/CORRELATION-ANALYSIS-MODEL",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "Correlation Analysis Model",
+              "text": "A Python project to perform <b>EDA</b> and build an ML model based on correlation analysis of feature variables.",
+              "tags": ["EDA", "Pandas", "Correlation", "ML"]
+            }
+          }
+        },
+        {
+          "id": 12,
+          "categoryId": "category_apps",
+          "img": "images/pictures/ecommercelogo.png",
+          "faIcon": "fa-solid fa-cart-shopping",
+          "faIconColors": { "bg": "#c2410c", "fill": "#fffbeb" },
+          "preview": {
+            "links": [{"href": "https://github.com/ALAN-K-BIJU/EcommerceApp", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}]
+          },
+          "locales": {
+            "en": {
+              "title": "EcommerceApp",
+              "text": "A basic <b>ecommerce app</b> built in Java with product list, cart, and dummy data for demo purposes.",
+              "tags": ["Java", "Ecommerce", "Android"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
