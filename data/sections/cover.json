@@ -1,0 +1,247 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Namaste...",
+                "title_long": "I'm {{Alan K Biju!}}"
+            }
+        }
+    },
+
+    "articles": [
+  {
+    "id": 1,
+    "component": "ArticleInlineList",
+    "locales": {},
+    "settings": {
+      "order_items_by": "id",
+      "order_items_sort": "asc",
+      "display_as_list_if_width_is_lower_than": 380
+    },
+    "items": [
+      {
+        "id": 1,
+        "label": "Thrissur, Kerala 🇮🇳",
+        "link": {"href": "", "tooltipString": ""},
+        "faIcon": "fa-regular fa-address-book"
+      },
+      {
+        "id": 2,
+        "label": "alankorethbiju@gmail.com",
+        "link": {
+          "href": "alankorethbiju@gmail.com",
+          "tooltipString": "email_me"
+        },
+        "faIcon": "fa-regular fa-envelope"
+      },
+      {
+        "id": 3,
+        "label": "@ALAN-K-BIJU",
+        "link": {
+          "href": "https://github.com/ALAN-K-BIJU",
+          "tooltipString": "see_on_github"
+        },
+        "faIcon": "fa-brands fa-github"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "component": "ArticleText",
+    "locales": {
+      "en": {"title": "{{A little bit}} about me..."}
+    },
+    "settings": {
+      "order_items_by": "id",
+      "order_items_sort": "asc"
+    },
+    "items": [
+      {
+        "id": 1,
+        "img": "images/pictures/balidanImage.png",
+        "faIcon": "",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+          "en": {
+            "text": "<p>I’m a passionate {{web and Android developer}} and {{DevOps engineer}} committed to building impactful, community-driven projects. I work primarily with {{Java}}, {{C++}}, and {{Python}}, with a strong interest in designing and deploying scalable {{REST APIs}}.</p><p>With a growing portfolio of full-stack and automation tools, I strive to create efficient, modern solutions using both open-source tools and cloud-native infrastructure. I value clean architecture, continuous learning, and [[collaboration in everything]] I do.</p><p>I’m currently pursuing my academic journey while actively contributing to tech communities and open-source ecosystems.</p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "component": "ArticleTestimonials",
+    "locales": {
+      "en": {"title": "Tech {{Insights}}"}
+    },
+    "settings": {
+      "order_items_by": "id",
+      "order_items_sort": "asc"
+    },
+    "items": [
+      {
+        "id": 1,
+        "label": "Kubernetes",
+        "link": {
+          "href": "https://kubernetes.io",
+          "tooltipString": "learn_more"
+        },
+        "img": "images/pictures/kubernetes.png",
+        "faIcon": "",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+          "en": {
+            "title": "Container Orchestration with [[Kubernetes]]",
+            "text": "Understanding how Kubernetes automates deployment, scaling, and management of containerized apps is key to modern DevOps. I use it for [[orchestrating microservices]] and managing system resiliency."
+          }
+        }
+      },
+      {
+        "id": 2,
+        "label": "TensorFlow",
+        "link": {
+          "href": "https://tensorflow.org",
+          "tooltipString": "learn_more"
+        },
+        "img": "images/pictures/tensorflow.png",
+        "faIcon": "",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+          "en": {
+            "title": "Deep Learning with [[TensorFlow]]",
+            "text": "TensorFlow is a powerful framework for building ML models. I'm exploring its capabilities in [[image classification]] and model deployment with TensorFlow Lite for Android."
+          }
+        }
+      },
+      {
+        "id": 3,
+        "label": "CI/CD",
+        "link": {
+          "href": "https://www.jenkins.io/doc/",
+          "tooltipString": "learn_more"
+        },
+        "img": "images/pictures/cicd.png",
+        "faIcon": "",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+          "en": {
+            "title": "Automation with [[CI/CD Pipelines]]",
+            "text": "Implementing CI/CD using Jenkins and GitHub Actions ensures [[smoother deployments]] and quicker feedback loops in my DevOps projects, especially when containerizing apps using Docker."
+          }
+        }
+      },
+      {
+        "id": 4,
+        "label": "Firestore & Firebase",
+        "link": {
+          "href": "https://firebase.google.com/docs",
+          "tooltipString": "learn_more"
+        },
+        "img": "images/pictures/firebase.png",
+        "faIcon": "",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+          "en": {
+            "title": "Building Fast Apps with [[Firebase]]",
+            "text": "Firebase helps me quickly prototype and scale Android apps using [[Firestore, Auth, and FCM]]. It's ideal for real-time syncing, analytics, and serverless backends."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "component": "ArticleInfoList",
+    "settings": {
+      "order_items_by": "id",
+      "order_items_sort": "asc"
+    },
+    "locales": {
+      "en": {"title": "Personal {{interests}}"}
+    },
+    "items": [
+      {
+        "id": 1,
+        "faIcon": "fa-solid fa-futbol",
+        "faIconColors": {"bg": "", "fill": ""},
+        "label": null,
+        "link": {"href": null, "tooltipString": null},
+        "locales": {
+          "en": {
+            "title": "Playing {{football}}",
+            "text": "An avid football enthusiast who enjoys team spirit and strategy on the field."
+          }
+        }
+      },
+      {
+        "id": 2,
+        "faIcon": "fa-solid fa-cube",
+        "faIconColors": {"bg": "", "fill": ""},
+        "label": null,
+        "link": {"href": null, "tooltipString": null},
+        "locales": {
+          "en": {
+            "title": "Speed {{cubing}}",
+            "text": "I enjoy solving Rubik’s cubes and similar puzzles competitively for mental sharpness."
+          }
+        }
+      },
+      {
+        "id": 3,
+        "faIcon": "fa-solid fa-paint-brush",
+        "faIconColors": {"bg": "", "fill": ""},
+        "label": null,
+        "link": {"href": null, "tooltipString": null},
+        "locales": {
+          "en": {
+            "title": "{{Arts}} & Illustration",
+            "text": "Practicing various art forms, sketching, and exploring design tools for creativity."
+          }
+        }
+      },
+      {
+        "id": 4,
+        "faIcon": "fa-solid fa-chart-line",
+        "faIconColors": {"bg": "", "fill": ""},
+        "label": null,
+        "link": {"href": null, "tooltipString": null},
+        "locales": {
+          "en": {
+            "title": "{{Investing}} & Finance",
+            "text": "Studying market trends, personal finance, and long-term wealth strategies."
+          }
+        }
+      },
+      {
+        "id": 5,
+        "faIcon": "fa-solid fa-hands-helping",
+        "faIconColors": {"bg": "", "fill": ""},
+        "label": null,
+        "link": {"href": null, "tooltipString": null},
+        "locales": {
+          "en": {
+            "title": "Community {{service}}",
+            "text": "Actively contributing to local initiatives and causes that uplift underrepresented groups."
+          }
+        }
+      },
+      {
+        "id": 6,
+        "faIcon": "fa-solid fa-globe",
+        "faIconColors": {"bg": "", "fill": ""},
+        "label": null,
+        "link": {"href": null, "tooltipString": null},
+        "locales": {
+          "en": {
+            "title": "{{Current Affairs}}",
+            "text": "Keeping up with global and national news to stay informed and aware."
+          }
+        }
+      }
+    ]
+  }
+]
+}

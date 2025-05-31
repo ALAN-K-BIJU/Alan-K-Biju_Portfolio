@@ -1,0 +1,197 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Awards",
+        "title_short_nav": "Achievements",
+        "title_long_prefix": "Here are my",
+        "title_long": "Career {{Achievements}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleCards",
+      "locales": {
+        "en": { "title": "Certifications" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-brands fa-aws",
+          "faIconColors": { "bg": "#FF9900", "fill": "#111" },
+          "date": { "year": 2025, "month": 4 },
+          "link": { "href": "https://www.credly.com/badges/916f4015-a39b-41a4-8eb3-6720cfc0a234/linked_in_profile", "tooltipString": "see_certification" },
+          "locales": {
+            "en": {
+              "title": "{{Amazon}} Web Services",
+              "text": "AWS Certified Solutions Architect – Associate"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-building-columns",
+          "faIconColors": { "bg": "#052FAD", "fill": "#EEE" },
+          "date": { "year": 2025, "month": 1 },
+          "link": { "href": "https://courses.ibmcep.cognitiveclass.ai/certificates/ed019a042fd94e76a153cbfc3be42c91", "tooltipString": "see_certification" },
+          "locales": {
+            "en": {
+              "title": "{{IBM}}",
+              "text": "DevOps Certification"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-brands fa-java",
+          "faIconColors": { "bg": "#007396", "fill": "#EEE" },
+          "date": { "year": 2023, "month": 7 },
+          "link": { "href": "https://www.udemy.com/certificate/UC-c9e8379b-1ee4-4e0e-a945-b3d3c1da764e/", "tooltipString": "see_certification" },
+          "locales": {
+            "en": {
+              "title": "{{Udemy}}",
+              "text": "Java Data Structures & Algorithms Certification"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-globe",
+          "faIconColors": { "bg": "#2A73CC", "fill": "#FFF" },
+          "date": { "year": 2023, "month": 10 },
+          "link": { "href": "https://www.coursera.org/account/accomplishments/verify/WCATUV7JRHHL?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course", "tooltipString": "see_certification" },
+          "locales": {
+            "en": {
+              "title": "{{Coursera}}",
+              "text": "Certificate for Web Developers"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-brands fa-aws",
+          "faIconColors": { "bg": "#232F3E", "fill": "#EEE" },
+          "date": { "year": 2024, "month": 1 },
+          "link": { "href": "https://www.credly.com/badges/49bcf799-c784-47c5-b3e6-d963b586ff5c/linked_in_profile", "tooltipString": "see_certification" },
+          "locales": {
+            "en": {
+              "title": "{{Amazon}} Web Services",
+              "text": "AWS Cloud Foundations"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleThread",
+      "locales": {
+        "en": { "title": "Awards" }
+      },
+      "settings": {
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "date",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "date": { "year": 2024, "month": 10 },
+          "preview": {
+            "links": [
+              { "href": "https://github.com/ALAN-K-BIJU/REDACT", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "{{SIH Hackathon Finalist}} – Redact App",
+              "province": "",
+              "country": "India",
+              "institution": "Smart India Hackathon",
+              "text": "Built Redact, a secure document redaction tool using AI, blockchain, and web technologies. Selected among the top 2% teams in the college to reach national-level finals."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "date": { "year": 2024, "month": 2 },
+          "preview": {
+            "links": [
+              { "href": "https://github.com/ALAN-K-BIJU/TrafficSaarthi", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "{{Innovate You Techathon}} – Sadak Soochak",
+              "province": "",
+              "country": "India",
+              "institution": "Innovate You",
+              "text": "Finalist in a nationwide techathon for building Sadak Soochak, a smart AI-powered platform to help navigate urban traffic. Ranked among the top 20 teams."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "date": { "year": 2022, "month": 12 },
+          "preview": {
+            "links": [
+              { "href": "https://www.instagram.com/p/CoZU1-ep4-Z/?img_index=6&igsh=MTZ1eG11eWJndGZscA==", "tooltipString": "read_article", "faIcon": "fa-solid fa-file-lines" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "{{Winner}} – Internal Coding Contest",
+              "province": "",
+              "country": "India",
+              "institution": "VIT Bhopal University",
+              "text": "Secured 1st place in the internal coding contest conducted by the college. Recognized for problem-solving skills and speed of implementation."
+            }
+          }
+        },
+        {
+          "id": 4,
+          "date": { "year": 2017, "month": 6 },
+          "preview": {
+            "links": [
+              { "href": "https://sofworld.org", "tooltipString": "see_olympiad", "faIcon": "fa-solid fa-award" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "{{State Medalist}} – IMO & English Olympiad",
+              "province": "",
+              "country": "India",
+              "institution": "SOF Olympiads",
+              "text": "Won state-level medals in International Mathematics and English Olympiads. Also awarded best performance trophy for school three consecutive years."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

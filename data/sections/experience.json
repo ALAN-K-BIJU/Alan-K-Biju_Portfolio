@@ -1,0 +1,95 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-building-columns",
+                    "faIconColors": { "bg": "#004080", "fill": "#FFFFFF" },
+                    "dateStart": { "year": 2024, "month": 1 },
+                    "dateEnd": { "year": 2024, "month": 4 },
+                    "locales": {
+                        "en": {
+                            "title": "{{Technical Member}}",
+                            "province": "Bhopal",
+                            "country": "India",
+                            "institution": "SDC Team, VIT Bhopal",
+                            "text": "Worked on internal automation tools and systems for VIT Bhopal, including an exam hall management system and a credit management portal for outgoing batches.",
+                            "list": [
+                                "Designed and developed an exam hall allocation system",
+                                "Automated credit validation for graduating students",
+                                "Processed and transformed raw institutional data"
+                            ],
+                            "tags": ["Java", "Python", "MySQL", "Automation"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-aws",
+                    "faIconColors": { "bg": "#232F3E", "fill": "#FF9900" },
+                    "dateStart": { "year": 2025, "month": 2 },
+                    "dateEnd": { "year": 2025, "month": 4 },
+                    "locales": {
+                        "en": {
+                            "title": "{{Cloud Intern}}",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Ethnus Codemithra AWS Internship Programme",
+                            "text": "Completed internship projects and certifications under AWS, including building a secure document management system with versioning and encryption using core AWS services.",
+                            "list": [
+                                "Built an encrypted document management system with version control",
+                                "Utilized AWS S3, Lambda, DynamoDB, and IAM",
+                                "Completed AWS foundational and project-based modules"
+                            ],
+                            "tags": ["AWS", "Lambda", "S3", "IAM", "DynamoDB", "Encryption"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": { "bg": "#181717", "fill": "#FFFFFF" },
+                    "dateStart": { "year": 2023, "month": 5 },
+                    "dateEnd": { "now": true },
+                    "locales": {
+                        "en": {
+                            "title": "{{Open Source Contributor}}",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "GitHub",
+                            "text": "Actively contributed to various open-source repositories in collaboration with organizations and individual developers, focusing on real-world software development practices.",
+                            "list": [
+                                "Contributed to multiple collaborative projects",
+                                "Fixed bugs, added features, and improved documentation",
+                                "Worked with Git, CI/CD workflows, and code review processes"
+                            ],
+                            "tags": ["Git", "Open Source", "CI/CD", "Collaboration"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
