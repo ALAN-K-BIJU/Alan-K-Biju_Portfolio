@@ -39,8 +39,8 @@
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
             "en": {
-              "title": "03",
-              "text": "Years of Engineering Completed"
+              "title": "Rank 1",
+              "text": "B.Tech CSE (Cloud Computing & Automation) Batch 2022-26"
             }
           }
         },
@@ -181,6 +181,25 @@
         },
         {
           "id": 4,
+          "date": { "year": 2025, "month": 8 },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Placed at {{Bain & Company!}}",
+              "province": "Gurgaon",
+              "country": "India",
+              "institution": "Bain & Company",
+              "text": "Thrilled to share that I’ve been placed as an Intern Analyst at Bain & Company in August 2025! Excited to begin this new chapter of learning and consulting excellence with one of the world’s top management firms."
+            }
+          }
+        },
+        {
+          "id": 5,
           "date": { "year": 2025, "month": 6 },
           "preview": {
             "links": [],
@@ -199,7 +218,7 @@
           }
         },
         {
-          "id": 5,
+          "id": 6,
           "date": { "year": 2025, "month": 5 },
           "preview": {
             "links": [],
