@@ -23,23 +23,23 @@
                 {
                     "id": 1,
                     "img": "",
-                    "faIcon": "fa-solid fa-building-columns",
-                    "faIconColors": { "bg": "#004080", "fill": "#FFFFFF" },
-                    "dateStart": { "year": 2024, "month": 1 },
-                    "dateEnd": { "year": 2024, "month": 4 },
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": { "bg": "#181717", "fill": "#FFFFFF" },
+                    "dateStart": { "year": 2023, "month": 5 },
+                    "dateEnd": { "now": true },
                     "locales": {
                         "en": {
-                            "title": "{{Technical Member}}",
-                            "province": "Bhopal",
-                            "country": "India",
-                            "institution": "SDC Team, VIT Bhopal",
-                            "text": "Worked on internal automation tools and systems for VIT Bhopal, including an exam hall management system and a credit management portal for outgoing batches.",
+                            "title": "{{Open Source Contributor}}",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "GitHub",
+                            "text": "Actively contributed to various open-source repositories in collaboration with organizations and individual developers, focusing on real-world software development practices.",
                             "list": [
-                                "Designed and developed an exam hall allocation system",
-                                "Automated credit validation for graduating students",
-                                "Processed and transformed raw institutional data"
+                                "Contributed to multiple collaborative projects",
+                                "Fixed bugs, added features, and improved documentation",
+                                "Worked with Git, CI/CD workflows, and code review processes"
                             ],
-                            "tags": ["Java", "Python", "MySQL", "Automation"]
+                            "tags": ["Git", "Open Source", "CI/CD", "Collaboration"]
                         }
                     }
                 },
@@ -69,23 +69,46 @@
                 {
                     "id": 3,
                     "img": "",
-                    "faIcon": "fa-brands fa-github",
-                    "faIconColors": { "bg": "#181717", "fill": "#FFFFFF" },
-                    "dateStart": { "year": 2023, "month": 5 },
-                    "dateEnd": { "now": true },
+                    "faIcon": "fa-solid fa-building-columns",
+                    "faIconColors": { "bg": "#004080", "fill": "#FFFFFF" },
+                    "dateStart": { "year": 2024, "month": 1 },
+                    "dateEnd": { "year": 2024, "month": 4 },
                     "locales": {
                         "en": {
-                            "title": "{{Open Source Contributor}}",
-                            "province": "",
-                            "country": "Remote",
-                            "institution": "GitHub",
-                            "text": "Actively contributed to various open-source repositories in collaboration with organizations and individual developers, focusing on real-world software development practices.",
+                            "title": "{{Technical Member}}",
+                            "province": "Bhopal",
+                            "country": "India",
+                            "institution": "SDC Team, VIT Bhopal",
+                            "text": "Worked on internal automation tools and systems for VIT Bhopal, including an exam hall management system and a credit management portal for outgoing batches.",
                             "list": [
-                                "Contributed to multiple collaborative projects",
-                                "Fixed bugs, added features, and improved documentation",
-                                "Worked with Git, CI/CD workflows, and code review processes"
+                                "Designed and developed an exam hall allocation system",
+                                "Automated credit validation for graduating students",
+                                "Processed and transformed raw institutional data"
                             ],
-                            "tags": ["Git", "Open Source", "CI/CD", "Collaboration"]
+                            "tags": ["Java", "Python", "MySQL", "Automation"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/bain.png",
+                    "faIcon": "fa-solid fa-briefcase",
+                    "faIconColors": { "bg": "#00205B", "fill": "#FFFFFF" },
+                    "dateStart": { "year": 2026, "month": 1 },
+                    "dateEnd": { "year": 2026, "month": 6 },
+                    "locales": {
+                        "en": {
+                            "title": "{{Intern Analyst}}",
+                            "province": "Gurgaon",
+                            "country": "India",
+                            "institution": "Bain & Company",
+                            "text": "Interned as an Analyst at Bain & Company, focusing on data-driven consulting projects and workflow automation using analytics tools and visualization platforms.",
+                            "list": [
+                                "Developed interactive dashboards using Power BI and Tableau",
+                                "Automated data processing workflows with Alteryx",
+                                "Performed data cleaning, modeling, and insight generation using Excel"
+                            ],
+                            "tags": ["Alteryx", "Power BI", "Tableau", "Excel Workflows"]
                         }
                     }
                 }
